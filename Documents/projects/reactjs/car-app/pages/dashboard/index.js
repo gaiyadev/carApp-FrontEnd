@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AttachMoneyIcon from "@material-ui/icons/AttachMoney";
 import Grid from "@material-ui/core/Grid";
 import ScoreCard from "../../components/dashboard/scoreCard";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -13,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
   },
 }));
+
 const Home = () => {
   const classes = useStyles();
 
